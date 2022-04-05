@@ -16,7 +16,7 @@ jobs:
           config: VC-WIN64A
         - arch: win32
           config: VC-WIN32 --strict-warnings
-        - arch: winarm64
+        - arch: arm64
           config: VC-WIN64-ARM
     runs-on: ${{matrix.os}}
     steps:
